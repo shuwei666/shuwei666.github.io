@@ -1,0 +1,35 @@
+{
+
+    "Yue2023": {
+        "title": "Practical cross-sensor color constancy using a dual-mapping strategy",
+        "year": 2023,
+        "venue": "31th Color and Imaging Conference(CIC)",
+        "authors": ["Shuwei Yue(Oral)", "Minchen Wei"],
+        "icon": "img/2023-dmcc-cic.png",
+        "res": {
+        "PDF": "https://connectpolyu-my.sharepoint.com/:b:/g/personal/21064184r_connect_polyu_hk/EdAEC9MXDuVKpmvQhAWuj5AB4cLM2xThPh5Q-jI1yn4a0g?e=Uzdiey",
+        "Code": "",
+        "Data": "",
+        "Vid": "",
+        "Sup": "",
+        "Web": "",
+        "PPT": "https://connectpolyu-my.sharepoint.com/:p:/g/personal/21064184r_connect_polyu_hk/EaY-tJKxMI9AmwdwDLTQeKABEQbmYL4KgCnHo4VkaFE7bA?e=KQjpCq"
+        }
+    },
+    "YueCIC2022": {
+        "title": "Dive into illuminant estimation from a pure color view",
+        "year": 2022,
+        "venue": "30th Color and Imaging Conference(CIC)",
+        "authors": ["Shuwei Yue(Oral)", "Minchen Wei"],
+        "icon": "img/2022-pcc-cic.png",
+        "res": {
+        "PDF": "https://library.imaging.org/admin/apis/public/api/ist/website/downloadArticle/cic/30/1/35",
+        "Code": "",
+        "Data": "",
+        "Vid": "",
+        "Sup": "",
+        "Web": "",
+        "PPT": "https://connectpolyu-my.sharepoint.com/:p:/g/personal/21064184r_connect_polyu_hk/EcRUleyTyKFFjP-rgK5hrGkBrCQFu7mby9-6OxBswatlUA?e=D12mal"
+        }
+    }
+}

@@ -1,0 +1,309 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+<!-- Required meta tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Computer Vision researcher homepage for Dr Han Gong"/>
+
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<!--custom CSS styles-->
+<style>
+
+.image_off, #profile:hover .image_on{
+   display:none
+}
+.image_on, #profile:hover .image_off{
+   display:block
+}
+
+body {
+  padding-top: 100px;
+  position: relative;
+}
+@media (max-width: 980px) {
+  body {
+    padding-top: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+.c2 { width: 50%; }
+.c3 { width: 33.33%; }
+.c4 { width: 25%; }
+.c5 { width: 20%; }
+}
+
+.icon {
+    width: 150px;
+}
+
+.sec {
+    margin: 0 0 20px 0; 
+}
+
+.modal-body {
+    max-height: calc(100vh - 143px);
+    overflow-y: auto; }
+
+.results tr[visible='false'],
+.no-result{
+  display:none;
+}
+
+.results tr[visible='true']{
+  display:table-row;
+}
+
+.darkmode--activated p {
+  color: #fff;
+}
+
+:target:before {
+        content: "";
+        display: block;
+        height: 100px; /* Fixed navbar height */
+        margin: -100px 0 0; /* Negative fixed navbar height */
+    }
+
+</style>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<title>Shuwei(Shaun) Yue</title>
+  <script>
+    var shiftWindow = function() { scrollBy(0, -100) };
+    window.addEventListener("hashchange", shiftWindow);
+    function load() { if (window.location.hash) shiftWindow(); }
+</script>
+
+
+
+</head>
+<body>
+<!-- top menu-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+  <a class="navbar-brand" href="#">Shuwei</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#publications">Publications</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="#software">Other Code</a>
+      </li> -->
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="#pate">Patents</a>
+      </li> -->
+      <li class="nav-item">
+        <a class="nav-link" href="#benchmark">Benchmark Datasets</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#activities">Professional Activities</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!--Bio-->
+<div class="container"> <div class="row">
+        <div class="col-sm-4 text-center" id="profile">
+          <img class="image_on img-thumbnail img-responsive" src="img/walle.jpg" alt="logo", style="width: 100%;" />
+          <img class="image_off img-thumbnail img-responsive" src="img/my.jpg" alt="logo", style="width: 50%;" /></div>
+<div class="col-sm-8 mt-2">
+	<p>Ph.D. in Imaging Science, the Hong Kong Polytechnic University.
+   <p> I am a Ph.D. candidate supervised by Prof. <a href="https://www.polyucolorlab.com/">Minchen(Tommy) Wei</a>.
+    My research interests are image processing and computational color. Currently, I am focusing on the following topics:</p>
+    <ul>
+      <li>Color constancy in challenging scenarios, such as pure color scenes, cross-sensor applications, and multi-illumination scenes.</li>
+      <li> AI ISP. </li>
+      <li>Scene relighting in shadowed and specular scenes.</li>
+    </ul>
+   
+	<p>See also my <a href='https://github.com/shuwei666'>GitHub</a>, <a href="https://www.zhihu.com/column/ColorImageProcessing">知乎</a>
+    and <a href='https://scholar.google.com/citations?user=ysI3JakAAAAJ&hl=en'>
+      Google Scholar</a>. Contact me via <a 
+      href="https://outlook.office365.com/mail/deeplink/compose?mailtouri=mailto%3A%2573%2568%
+      2575%2577%2565%2569.%2579%2575%2565%40%2563%256F%256E%256E%2565%2563%2574.
+      %2570%256F%256C%2579%2575.%2568%256B">shuwei.yue(at)connect.polyu.hk</a>.</p>
+
+</div>
+</div>
+ <hr/>
+</div>
+<!--page-->
+<div class="container" data-spy="scroll" data-target="#navbar">
+<div class="row sec">
+
+
+<h2><a id="publications" class="anchor">Publications</a></h2>
+<div class="w-100"></div>
+
+<h3>Journals</h3>
+<div class="container" id="journal"></div>
+
+<h3>Conferences</h3>
+<div class="container" id="conf"></div>
+
+
+<h3>Patents</h3>
+<div class="container" id="pate"> </div>
+
+
+<div class="row sec">
+<!-- <h2 class="col-12"><a id="benchmark" class="anchor">Benchmark</a></h2> -->
+<h2><a id="benchmark" class="anchor">Benchmark Datasets</a></h2>
+
+
+<div class="col-sm-12 p-2"> <img src="img/polyu_pure.png" alt="", style="width: 70%;"/>
+ </div>
+<div class="col-sm-4"> <a href="https://connectpolyu-my.sharepoint.com/personal/21064184r_connect_polyu_hk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2F21064184r%5Fconnect%5Fpolyu%5Fhk%
+  2FDocuments%2Fpcc%5Fhuawei%5Fthumbnails%2Fpcc%5Fhuawei%5Fthumbnail&ga=1">PolyU Pure Color Dataset</a><br/>
+<b>Shuwei Yue</b>, <a href="https://www.polyucolorlab.com/">Minchen(Tommy) Wei</a><br/></div>
+</div>
+<!-- 
+<div class="row sec"> <div class="col">
+<h2><a id="software" class="anchor">Other Code</a></h2>
+<ul>
+<li><a href="https://github.com/hangong/TMR">Image Colour Transfer deNoise by Transportation Maps Regularisation (MATLAB)</a><br/>This is an open-source implementation of Rabin's colour transfer artefact removal algorithm.</li>
+<li><a href="https://github.com/hangong/Colour_Transfer_deNoise">Image Colour Transfer deNoise (C++)</a><br/>This is an open-source implementation of Pitié's colour transfer artefact removal algorithm.</li>
+<li><a href="https://github.com/hangong/gfinvim">GFInvIm (MATLAB)</a><br/>GFInvIm is an open-source implementation of Finalyson's Illumination Invariant Image. MATLAB/Octave code is provided. Please note that this algorithm is patented.</li>
+<li><a href="https://github.com/hangong/maloney-wandell">Maloney-Wandell (MATLAB)</a><br/>Maloney-Wandell is an open-source implementation of <a href="http://psych.nyu.edu/maloney/">Maloney</a> and <a href="http://web.stanford.edu/group/vista/cgi-bin/wandell/">Wandell</a>'s colour constancy algorithm. MATLAB/Octave code is provided.</li>
+<li><a href="https://github.com/hangong/meanshift_matlab">MeanShift Clustering(MATLAB)</a><br/>This is an open-source implementation of meanshift clustering algorithm. MATLAB/Octave code is provided.</li>
+<li><a href="https://github.com/hangong/reinhard_color_transfer">Reinhard's Image Colour Transfer (MATLAB)</a><br/>This is an open-source implementation of Reinhard's image colour transfer algorithm. MATLAB/Octave code is provided.</li>
+<li><a href="https://github.com/hangong/xiao06_color_transfer">Xiao's Image Colour Transfer Published in 2006 (MATLAB)</a><br/>This is an open-source implementation of Xiao's image colour transfer algorithm. MATLAB/Octave code is provided.</li>
+</ul>
+</div> </div> -->
+
+<div class="row sec"> 
+  <div>
+<h2><a id="activities" class="anchor">Professional Activities</a></h2>
+<p>I am a reviewer for the following publication venues:</p>
+<!-- <li>Color and Imaging Conference (CIC)</li> -->
+<li> ACM International Conference on Multimedia.
+<!-- <li>Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</li>
+<li>Transactions on Image Processing (TIP)</li> -->
+<li>Journal of the Optical Society of America, JOSA A.</li>
+
+</div> </div>
+
+
+<script>
+// ** IF YOU ARE READING THIS CODE, YOU ARE A GEEK. :-) **
+
+$('body').scrollspy({ target: '#navbar' })
+
+$(document).ready(function() {
+
+// parse journal publications    
+$.getJSON( "journal.json", function( data ) {
+    $('#journal').append(print_pub(data));
+});
+
+// parse confererence publications    
+$.getJSON( "conf.json", function( data ) {
+    $('#conf').append(print_pub(data));
+});
+
+
+// parse patent publications    
+$.getJSON( "patent.json", function( data ) {
+    $('#pate').append(print_patent(data));
+});
+
+});
+
+function print_patent(data) {
+    var content = '';
+    $.each(data, function (key, obj) {
+        content += '<div class="row mt-1">';
+        content += '<div class="col">';
+        
+        content += '<b>' + obj.title + '</b><br/>';
+       
+  
+        content += obj.authors + ', ' + obj.year;
+
+        if (obj.status.toLowerCase() === "submitted") {
+            content += ' (Submitted)';
+        } else {
+            content += ' (Published; Patent Number: ' + obj.patentNumber + ')';
+        }
+        content += '<br/>';
+
+        var resContent = '';
+        for (var type in obj.res) {
+            if (obj.res[type]) {
+              resContent += '[<a href="' + obj.res[type] + '">' + type + '</a>] ';
+            }
+        }
+
+        if (resContent) {
+            content += resContent + '<br/>';
+        }
+
+      
+        if (obj.note) {
+            content += obj.note + '<br/>';
+        }
+
+        content += '</div></div>';
+    });
+    return content;
+}
+
+
+function print_pub(data) {
+    var tt = '';
+    // for each
+    $.each(data, function (index,obj) { 
+        tt = tt + '<div class="row mt-1">';
+        // add icon
+        tt = tt + '<div class="col-sm-3 p-2"><img src="' + obj.icon + '" alt="" style="width: 100%;"/>';
+        tt += '</div>';
+        // add title
+        tt = tt + '<div class="col"><b>' + obj.title + '</b><br/>'
+
+        // add res
+        for (var i in obj.res) {
+            if (obj.res[i]) {
+                tt = tt + '[<a href="' + obj.res[i] + '">' + i + '</a>]';
+            }
+        }
+        if (obj.note) {tt = tt + ' ' + obj.note}
+        tt = tt + '<br/>'
+
+        // add authors
+        var l = obj.authors.length;
+        for (var i = 0; i<l ; i++) {
+            if (obj.authors[i].includes('Yue')) {
+                tt = tt + '<b>' + obj.authors[i] + '</b>';
+            } else {
+                tt = tt + obj.authors[i];
+            }
+            if (i!=l-1) {tt = tt+', '}
+        }
+        tt = tt + '<br/>'
+
+        // add venue and year + closue
+        tt = tt + obj.venue + ', ' + obj.year + '</div></div>'
+    });
+
+    return tt;
+}
+</script>
+
+</div>
+<footer class="bg-dark text-light p-3">&copy; 2022-2023 Shuwei Yue; This website is personal and copied from Dr. Han Gong.</footer>
+</body>
+</html>

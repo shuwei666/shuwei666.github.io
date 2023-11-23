@@ -1,0 +1,52 @@
+{
+    "Yue-pcc": {
+        "title": "A lightweight feature-based DNN method for image Auto White Balance.",
+        "year": 2022,
+        "authors": ["Shuwei Yue", "Minchen Wei"],
+        "status": "Submitted",
+        "res": {
+        },
+        "note": "This patent covers methods for implementing Auto White Balance (AWB) in pure color scenes using a Multilayer Perceptron(MLP)."
+      },
+      
+    "Yue-dmcc": {
+        "title": "A lightweight dual-mapping method for cross-sensor Auto White Balance.",
+        "year": 2023,
+        "authors": ["Shuwei Yue", "Minchen Wei"],
+        "status": "Submitted",
+        "res": {
+        "PDF": "",
+        "Code": "",
+        "Data": "",
+        "Vid": "",
+        "Sup": "",
+        "Web": ""
+        },
+        "note": "This patent covers methods to tackle degraded performance when DNN-based AWB encounters new sensors."
+      },
+    "Yue-tmo1": {
+        "title": "Image processing method, system, movable platform and storage medium.",
+        "year": 2020,
+        "authors": ["Shuwei Yue et al."],
+        "status": "Published",
+        "patentNumber": "CN112154474A",
+        "res": {
+          "PDF": "https://connectpolyu-my.sharepoint.com/:b:/g/personal/21064184r_connect_polyu_hk/EZvlan34mEpKgPH_8GWGsDsBxAztIdBjyGA2iNgxKeF7zQ?e=dEhsLJ"
+        },
+        "note": "This patent covers methods for implementing a tone mapping operators(TMO) for UAV challenge cases."
+      },
+    
+      "Yuet-tmo2": {
+        "title": "Image processing method, system, movable platform and storage medium.",
+        "year": 2020,
+        "authors": ["Shuwei Yue et al."],
+        "status": "Published",
+        "patentNumber": "CN112166598B",
+        "res": {
+            "PDF": "https://connectpolyu-my.sharepoint.com/:b:/g/personal/21064184r_connect_polyu_hk/EZvlan34mEpKgPH_8GWGsDsBxAztIdBjyGA2iNgxKeF7zQ?e=eDfbf6"
+          },
+        "note": "This patent application covers methods for implementing an adaptive TMO for challenging scenarios in automotive scenes."
+      }
+    
+    
+}
