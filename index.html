@@ -273,6 +273,12 @@ function print_pub(data) {
         tt += '</div>';
         // add title
         tt = tt + '<div class="col"><b>' + obj.title + '</b><br/>'
+        
+
+        // Add venue, year and copyright notice
+        tt += obj.venue + ', ' + obj.year;
+        tt += ' (© ' + obj.year + ' Optica Publishing Group. Personal use only.)<br/>';
+
 
         // add res
         for (var i in obj.res) {
